@@ -1,0 +1,62 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>SkateWorld-2.0</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="assets\icons8-users-64.png" />
+    <None Remove="ui\icons8-home-128.png" />
+    <None Remove="assets\icons8-settings-384.png" />
+    <None Remove="ui\worldlogo.png" />
+    <None Remove="ui\controls\us.png" />
+    <None Remove="assets\icons8-servers-100.png" />
+    <None Remove="assets\avatar.png" />
+    <None Remove="assets\icons8-servers.png" />
+    <None Remove="assets\skateworldlogo.png" />
+    <None Remove="ui\bg3.jpg" />
+    <None Remove="ui\bg2.jpg" />
+    <None Remove="assets\icons8-subtract-90.png" />
+    <None Remove="assets\icons8-skateboarding-90.png" />
+    <None Remove="ui\icons8-refresh-240.png" />
+    <None Remove="assets\icons8-close-480.png" />
+    <None Remove="ui\bg.jpg" />
+    <None Remove="ui\controls\icons8-lock-100.png" />
+    <None Remove="assets\icons8-user-96.png" />
+    <EmbeddedResource Include="assets\icons8-users-64.png" />
+    <EmbeddedResource Include="ui\icons8-home-128.png" />
+    <EmbeddedResource Include="assets\icons8-settings-384.png" />
+    <EmbeddedResource Include="ui\worldlogo.png" />
+    <EmbeddedResource Include="ui\controls\us.png" />
+    <EmbeddedResource Include="assets\icons8-servers-100.png" />
+    <EmbeddedResource Include="assets\avatar.png" />
+    <EmbeddedResource Include="assets\icons8-servers.png" />
+    <EmbeddedResource Include="assets\skateworldlogo.png" />
+    <EmbeddedResource Include="ui\bg3.jpg" />
+    <EmbeddedResource Include="ui\bg2.jpg" />
+    <EmbeddedResource Include="assets\icons8-subtract-90.png" />
+    <EmbeddedResource Include="assets\icons8-skateboarding-90.png" />
+    <EmbeddedResource Include="ui\icons8-refresh-240.png" />
+    <EmbeddedResource Include="assets\icons8-close-480.png" />
+    <EmbeddedResource Include="ui\bg.jpg" />
+    <EmbeddedResource Include="ui\controls\icons8-lock-100.png" />
+    <EmbeddedResource Include="assets\icons8-user-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json" />
+  </ItemGroup>
+</Project>

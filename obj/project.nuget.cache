@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yX6gThNyGw+Km3v0XAxsTnwbSABHiqatAfIeiZn99CCy32YQtMk1ZZ74ujw/Usy2stIGhUlbv8R4AVFAkviuBg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nasty\\Desktop\\Skateworld\\Skateworld Src\\SkateWorld_unpacked.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nasty\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
